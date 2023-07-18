@@ -7,3 +7,11 @@ header.style.border='solid 3px #000';
 console.log(main);
 main.style.fontWeight='bold';
 main.style.color='green';
+var ms=document.getElementsByClassName('list-group-item');
+console.log(ms);
+ms[3].style.backgroundColor='green';
+ms[1].style.fontWeight='bold';
+ms[2].style.fontWeight='bold';
+ms[3].style.fontWeight='bold';
+ms[4].style.fontWeight='bold';
+
