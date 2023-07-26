@@ -7,11 +7,16 @@ header.style.border='solid 3px #000';
 console.log(main);
 main.style.fontWeight='bold';
 main.style.color='green';
-var ms=document.getElementsByClassName('list-group-item');
+var ms=document.getElementsByTagName('li');
 console.log(ms);
-ms[3].style.backgroundColor='green';
+ms[0].style.fontWeight='bold';
 ms[1].style.fontWeight='bold';
 ms[2].style.fontWeight='bold';
 ms[3].style.fontWeight='bold';
 ms[4].style.fontWeight='bold';
+var ele=document.getElementsByClassName('list-group-item');
+ele[2].style.backgroundColor='green';
+ele[4].style.fontWeight='bold';
+console.log(ele);
+
 
