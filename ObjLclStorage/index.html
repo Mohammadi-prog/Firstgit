@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>JS For Beginners</title>
+    
+  </head>
+<body>
+<h2>Storing Objects in Local Storage</h2>
+</body>
+<script type="text/javascript">
+let myobj={
+    name:"sana",
+    age:26
+};
+let myobj_serialized=JSON.stringify(myobj);
+
+localStorage.setItem("myobj",myobj_serialized);
+let myobj_deserialized=JSON.parse(localStorage.getItem("myobj"));
+console.log(myobj_deserialized);
+</script>
+</html>
